@@ -20,12 +20,17 @@ const filter1 = array.map(nam => nam.price);
 // foeich:
 // array.forEach(p => console.log(p.price));
 
+// Find:
+const find = array.find(p => p.price > 110000);
+console.log(find);
+
+
 // Reduce:
 const priceElement = array.filter(p => p.price >100000);
-console.log(priceElement);
+// console.log(priceElement);
 
 
 
 const price = array.reduce((first, last)=> first + last.price,0);
-console.log(price);
+// console.log(price);
 
