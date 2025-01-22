@@ -33,6 +33,5 @@ const math2 = numbers.map(num => num*4)
 
 const nameof = ['siyam', 'rohul', 'asif', 'nabil', 'abir'];
 // const nameLenth = nameof.map(nam => nam.length);
-const nameLenth = nameof.map(nam => nam[0]);
+const nameLenth = nameof.map(nam => nam[0].toUpperCase()+nam.slice(1));
 console.log(nameLenth);
-
