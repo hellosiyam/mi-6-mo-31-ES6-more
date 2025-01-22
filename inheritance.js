@@ -6,7 +6,7 @@ class Vehicle{
 }
 
 class Bus extends Vehicle{
-    constructor(wait, rote){
+    constructor(name, seat, wait, rote){
         super(name, seat);
         this.wait = wait;
         this.rote = rote;
@@ -14,7 +14,7 @@ class Bus extends Vehicle{
 }
 
 class Car extends Vehicle{
-    constructor(color, price){
+    constructor(name, seat, color, price){
         super(name, seat);
         this.color = color;
         this.price = price;
